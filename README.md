@@ -1,4 +1,7 @@
 # Analisis Review Produk (Product Review Analyzer)
+| Nama Lengkap      | NIM        | ID GitHub         |
+| ----------------- | ---------- | ----------------- |
+| **[Muhammad Riveldo Hermawan Putra]**   | **[122140037]** | **[MuhammadRiveldo]** |
 
 Aplikasi web *full-stack* ini memungkinkan pengguna untuk mengirimkan ulasan produk. Aplikasi akan secara otomatis menganalisis teks tersebut untuk menentukan **Sentimen** (menggunakan Hugging Face) dan mengekstrak **Poin Penting** (menggunakan Google Gemini AI), lalu menyimpan hasilnya ke dalam database PostgreSQL.
 
@@ -13,15 +16,15 @@ Aplikasi web *full-stack* ini memungkinkan pengguna untuk mengirimkan ulasan pro
 
 **1. Halaman Utama & Form Input**
 *Tampilan awal aplikasi di mana pengguna dapat memasukkan ulasan produk.*
-`![Halaman Utama](docs/images/1.png)`
+![Halaman Utama](./docs/images/1.png)
 
 **2. Hasil Analisis Muncul**
 *Setelah pengguna mengirimkan ulasan, hasil analisis sentimen dan poin penting akan ditampilkan.*
-`![Hasil Analisis](docs/images/2.png)`
+![Hasil Analisis](docs/images/2.png)
 
 **3. Riwayat Ulasan**
 *Di bagian bawah halaman, semua ulasan yang pernah dikirim akan ditampilkan dalam bentuk daftar riwayat.*
-`![Riwayat Ulasan](docs/images/3.png)`
+![Riwayat Ulasan](docs/images/3.png)
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -60,10 +63,11 @@ Aplikasi web *full-stack* ini memungkinkan pengguna untuk mengirimkan ulasan pro
 
 ### 1. Backend Setup
 
-a. **Masuk ke folder backend:**
-   ```bash
-   cd backend
-   ```
+a. **Clone Repositori & Masuk ke Folder Backend**
+```bash
+git clone https://github.com/MuhammadRiveldo/-Product-Review-Analyzer.git
+cd [backend]
+```
 
 b. **Buat dan aktifkan virtual environment:**
    ```bash
